@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+
 --- !u!1001 &23352230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4283,11 +4284,13 @@ GameObject:
   m_PrefabInstance: {fileID: 1761812936}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1761812938
+
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1761812937}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4399,10 +4402,12 @@ MonoBehaviour:
   m_AttachPointCompatibilityMode: 0
 --- !u!54 &1761812939
 Rigidbody:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1761812937}
   serializedVersion: 2
   m_Mass: 1
@@ -4415,10 +4420,12 @@ Rigidbody:
   m_CollisionDetection: 2
 --- !u!65 &1761812944
 BoxCollider:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 1761812937}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -4427,12 +4434,14 @@ BoxCollider:
   m_Size: {x: 1.2174762, y: 0.006473694, z: 1.996376}
   m_Center: {x: 0.00000011920929, y: 0.003236365, z: 0}
 --- !u!1001 &1805789099
+
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+
     - target: {fileID: 4642154672735271909, guid: 0bff3850fb8b0914ba97ae33a25041c1, type: 3}
       propertyPath: m_Name
       value: lock
@@ -4679,6 +4688,7 @@ RectTransform:
   m_AnchoredPosition: {x: -6.489, y: -0.6273373}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
+
 --- !u!1 &2063373992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,6 +4781,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &2075759488
@@ -4965,3 +4976,4 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135199224}
   m_CullTransparentMesh: 1
+
