@@ -9,11 +9,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - pickupobject
   - Water
   - UI
   - Grab Ignore Ray
-  - 
+  - player
   - 
   - 
   - 
